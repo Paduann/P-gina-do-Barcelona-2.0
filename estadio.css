@@ -1,0 +1,153 @@
+.sobre__estadio {
+    margin-top: 10rem;
+}
+
+.textos__estadio {
+    background-color: #FFFFFF;
+    border: 5px solid darkred;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__estadio {
+    color: darkgoldenrod;
+    font-size: 4rem;
+    padding: 1.25rem;
+    align-self: center;
+}
+ 
+.texto__estadio-1 {
+     padding-top: 3rem;
+ }
+ 
+.texto__estadio-3 {
+     padding-bottom: 3rem;
+ }
+
+.imagem__estadio {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.foto__estadio {
+    border: 5px solid #FFFFFF;    
+    
+}
+
+.video__estadio {
+    border: 5px solid #FFFFFF;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
+
+.texto__rodape {
+    color: #FFFFFF;
+    text-align: center;   
+}
+
+
+@media screen and (min-width: 375px) {
+    .sobre__estadio {
+        width: 565px;
+        margin-left: 5%;
+    }
+    
+    .texto__estadio {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 2.5rem;
+    }
+    
+    .imagem__estadio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .foto__estadio {
+        width: 550px; 
+        height: 380px;
+        margin-bottom: 2rem;
+        margin-left: 7%;
+    }
+    
+    .video__estadio {
+        width: 550px; 
+        height: 380px;
+        margin-bottom: 2rem;
+        margin-left: 7%;
+    }
+    
+    .rodape__estadio {
+        width: 600px;
+    }
+    
+    .texto__rodape {
+        font-size: 1.25rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__estadio {
+        margin-left: 4.8%;
+        width: 700px;
+    }
+
+    .foto__estadio {
+        width: 650px; 
+        height: 480px;
+    }
+
+    .video__estadio {
+        width: 650px; 
+        height: 480px;
+    }
+
+    .rodape__estadio {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sobre__estadio {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    .texto__estadio {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.25rem;
+    }
+
+    .imagem__estadio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .foto__estadio {
+        width: 720px; 
+        height: 480px;  
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .video__estadio {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: 720px;
+        height: 480px;
+    }
+
+    .rodape__estadio {
+        width: 100%;
+    }
+}

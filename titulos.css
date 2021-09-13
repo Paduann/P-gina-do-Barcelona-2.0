@@ -1,0 +1,116 @@
+.secao__titulos {
+    margin-top: 10rem;
+    
+}
+
+.sobre__titulos {
+    border: 5px solid darkred;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos__trofeus {
+    color: darkgoldenrod;
+    font-size: 4rem;
+    padding: 1.25rem;
+    align-self: center;
+}
+
+.textinho__titulos {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.conteudo__titulo {
+    display: flex;
+}
+
+.lista__titulos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.link__titulos {
+    text-transform:  uppercase;
+	text-decoration:  none;
+    color: #000000;
+}
+
+.link__titulos:hover {
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imagem__jogadores___trofeu {
+    box-sizing: border-box;
+    margin: 2rem;
+    height: 300px;
+    width: 600px;
+    border: 5px solid darkgoldenrod;
+}
+
+.video__titulos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.player__titulo {
+    margin: 3rem;
+    border: 5px solid #FFFFFF;
+}
+
+@media screen and (min-width: 375px) {
+    .secao__titulos {
+        width: 750px;
+        margin-left: 8%;
+    }
+
+    .titulos__trofeus {
+        font-size: 3rem;
+    }
+
+    .textinho__titulos {
+        font-size: 1.5rem;
+    }
+
+    .conteudo__titulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link__titulos {
+        font-size: 1.25rem;
+    }
+
+    .player__titulo {
+        width: 700px; 
+        height: 525px;
+        margin-left: 3%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .secao__titulos {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .secao__titulos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    }
+
+    .conteudo__titulo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

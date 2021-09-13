@@ -1,0 +1,17 @@
+.fonte__texto {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto__cabecalho {
+    color: darkgoldenrod!important;
+    font-size: 2rem;
+}
+
+.texto__navbar {
+    color: darkgoldenrod!important;
+    font-size: 1.25rem;
+}
+
+.cor__fundo-header {
+    background-color: rgb(7, 55, 99);
+}
